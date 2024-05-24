@@ -75,4 +75,5 @@ hour of the day, day of the week, etc.
 Regression model: Use a regression model (such as linear regression) to predict the number of
 pickups in the next hour based on the features.
 
+Answer: We have done the prediction and ran in the main.ipynb. But due to the size of the dataset is too large to print. Therefore, we only show the prediction results of top 10 rows with Features, Labels and Prediction. Check in main.ipynb please.
 
