@@ -1,4 +1,7 @@
 # Spark-Data
+# Installment Requirements
+!pip install requirements.txt
+
 # Report of Final Assignment Preparation
 
 Preparation for the environment settings:
