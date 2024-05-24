@@ -8,9 +8,10 @@ def demand_prediction(df):
     df = df.withColumn('hour_of_day', F.hour('tpep_pickup_datetime'))
     df = df.withColumn('day_of_week', F.dayofweek('tpep_pickup_datetime'))
     df = df.withColumn('month_of_year', F.month('tpep_pickup_datetime'))
+    df = df.withColumn('unix_time', F.unix_timestamp('tpep_pickup_datetime'))
 
     # Group by time windows to aggregate pickup counts
-    windowSpec = Window.orderBy(F.col("tpep_pickup_datetime")).rangeBetween(Window.unboundedPreceding, Window.currentRow)
+    windowSpec = Window.orderBy("unix_time").rangeBetween(-3600, 0)
     df = df.withColumn('pickup_count_hourly', F.count('VendorID').over(windowSpec))
 
     # Create feature vector
