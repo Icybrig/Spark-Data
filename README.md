@@ -4,6 +4,8 @@
 
 run the Makefile in the gcp terminal to create the cluster and the bucket
 
+![cc 1](https://github.com/Icybrig/Spark-Data/assets/136721036/6e9c1501-146c-45b0-8186-4eeeee4d5b23)
+
 # Report of Final Assignment Preparation
 
 Preparation for the environment settings:
