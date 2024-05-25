@@ -85,6 +85,11 @@ Trip speed: Create a new feature for the average speed of a trip, and use this t
 conditions by trying to find if for similar trip (when they exist) they more or less have the same
 avg speed or not, try then to group the avg speed by trip then hour, day, week
 
+![b0cd2ffbe07c86a07ea630dfa94f310](https://github.com/Icybrig/Spark-Data/assets/136721036/a98528af-92d4-4ccb-b529-9e6027923176)
+![bceded1b84850e23fd5b2285d9ce565](https://github.com/Icybrig/Spark-Data/assets/136721036/52175ba8-d2bc-4925-8cc7-2a5cc85ac83f)
+![29b24da9f81752e0bfc71360f249c57](https://github.com/Icybrig/Spark-Data/assets/136721036/e4f13ec6-786f-4e2a-a239-d47ba3f1f194)
+![e4718a079977f527d8c521060ce4b70](https://github.com/Icybrig/Spark-Data/assets/136721036/457e4b13-18aa-49bd-b854-548834feee1a)
+
 Answer: Yes. In the main.ipynb.
 
 5.Demand Prediction
@@ -94,6 +99,8 @@ hour of the day, day of the week, etc.
 
 Regression model: Use a regression model (such as linear regression) to predict the number of
 pickups in the next hour based on the features.
+
+![492fccec8e7a38f630b661c6e82e70a](https://github.com/Icybrig/Spark-Data/assets/136721036/2c6b6a74-e072-4a79-86ce-a90efff0a704)
 
 Answer: We have done the prediction and ran in the main.ipynb. But due to the size of the dataset is too large to print. Therefore, we only show the prediction results of top 10 rows with Features, Labels and Prediction. Check in main.ipynb please.
 
