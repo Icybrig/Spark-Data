@@ -2,6 +2,8 @@
 # Installment Requirements
 !pip install requirements.txt
 
+run the Makefile in the gcp terminal to create the cluster and the bucket
+
 # Report of Final Assignment Preparation
 
 Preparation for the environment settings:
