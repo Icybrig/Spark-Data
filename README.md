@@ -40,14 +40,21 @@ Answer: Showed in the main.ipynb
 Tip percentage by trip: Do some locations tip more than others? Is there a correlation between
 distance and tip?
 
+![e6c45d0603a92f745eb75aaf7fe79ec](https://github.com/Icybrig/Spark-Data/assets/136721036/75589fbd-50e9-470f-b659-53a49df35a8c)
+
 Answer: Yes. There are two locations are much higher than the others. PULocationID 252 and 1. For the correlation between distance and tip, it looks like people are not willing to go to somewhere to far away. For trip distance between 1.45 and 3, there are more people than other locations.
 
 Tips by time: Does the time of day, week, or even year affect tipping behavior? You could
 cross-reference this with holidays or events.
 
+![930ac0b7d62ebcd6d73e341e13da29e](https://github.com/Icybrig/Spark-Data/assets/136721036/cd363ba4-68b2-4220-a2d8-dce3279a1c7c)
+![6fd8c8e11fe6066f10656a37e5dc844](https://github.com/Icybrig/Spark-Data/assets/136721036/8aab6e1c-9a10-4a42-a8a4-917fb413ab1a)
+
 Answer: For the hour and the day of the week, there is no such significant difference between those. But for the month, we can see that close the end of the year will be more tip amount. It probably because of the holiday such as Christmas. 
 
 Does the payment type affect the tipping?
+
+![cb500dcd4913eed1b2a3e078812cfd7](https://github.com/Icybrig/Spark-Data/assets/136721036/3916838e-46cb-41b3-b504-8e68d41003b6)
 
 Answer: Yes. For the payment type 0, 1 and 2, the tip amount is much higher than the rest. For the payment type 3, it is even negative. 
 
