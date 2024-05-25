@@ -4,8 +4,6 @@
 
 run the Makefile in the gcp terminal to create the cluster and the bucket
 
-![cc 1](https://github.com/Icybrig/Spark-Data/assets/136721036/6e9c1501-146c-45b0-8186-4eeeee4d5b23)
-
 # Report of Final Assignment Preparation
 
 Preparation for the environment settings:
@@ -25,10 +23,15 @@ Average duration and distance of rides: Compare these metrics by time of day, da
 and month of year. This can reveal patterns such as longer trips during rush hours, on
 weekends, or during holiday seasons.
 
+![352b7da7accc3993c8c7333fe9c4948](https://github.com/Icybrig/Spark-Data/assets/136721036/8533505b-582f-47c2-84ce-0b1102df48dd)
+![d55462867ac8138cb9ab3f5c7ac6917](https://github.com/Icybrig/Spark-Data/assets/136721036/d4383f0a-f67b-4f63-bac5-ea0205e916e4)
+
 Answer: Yes, based on our analysis. For the hours, we can see that when it is in the afternoon between 12 - 24, the average trip distance is quiet low probably due to the traffic situation. But in the morning it can be achieved in 45 or 43 in 4 o'clock or 5 o'clock. For day of week, there is no significant diffrence between weekend and working days. For the month of year, except first three months, the rest of distance travelled are similar. But as close as to the end of the year, the time spent on the trip will be longer probably because there are more vacations in the last-half year. 
 
 Popular locations: Identify the top 10 pickup and dropoff locations. This could be interesting
 when mapped visually.
+
+![289caecdf56739942ea29be64b3f739](https://github.com/Icybrig/Spark-Data/assets/136721036/8d208b12-490d-45a7-922a-e95f09096e50)
 
 Answer: Showed in the main.ipynb
 
@@ -81,3 +84,6 @@ pickups in the next hour based on the features.
 
 Answer: We have done the prediction and ran in the main.ipynb. But due to the size of the dataset is too large to print. Therefore, we only show the prediction results of top 10 rows with Features, Labels and Prediction. Check in main.ipynb please.
 
+# Results of Cluster
+
+![cc 1](https://github.com/Icybrig/Spark-Data/assets/136721036/6e9c1501-146c-45b0-8186-4eeeee4d5b23)
