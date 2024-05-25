@@ -62,14 +62,20 @@ Answer: Yes. For the payment type 0, 1 and 2, the tip amount is much higher than
 
 Can you calculate the average fare by pull & drop location?
 
+![7876b17c2a0edd830efea4729b8fd1c](https://github.com/Icybrig/Spark-Data/assets/136721036/148c350e-11cc-42c8-851c-6fb5d107fe93)
+
 Answer: Yes, showed in the main.ipynb.
 
 Can you calculate the average fare by Passenger count ? to see if there is any correlation with
 passenger count and fare amount
 
+![f6724c596122af53f49a501e65acbba](https://github.com/Icybrig/Spark-Data/assets/136721036/e56a35a1-8a6a-4539-9eb7-d7f1544016f7)
+
 Answer: Yes. When the passenger count is 7, 8 or 9, the fare amount are much higher than the others.
 
 Can you correlate the fare amount and the distance trip ?
+
+![0caa963c50a7b210a3cb9dfd96b56f7](https://github.com/Icybrig/Spark-Data/assets/136721036/38ca1a39-3573-46c3-b0fe-96b38e2fc9d0)
 
 Answer: The correlation between the fare amount and the distance trip is weak. To see in the main.ipynb.
 
